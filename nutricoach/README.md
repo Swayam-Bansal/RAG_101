@@ -1,3 +1,6 @@
+# Note --
+This is a tutorial by IBM, which I have been coding along with, it's not something that I have built from scratch, and I dont want to take any credits for it.
+
 ---
 title: AI_NutriCoach
 app_file: app.py
@@ -132,3 +135,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Contact
 
 For any questions or support, please contact [Hailey Thao Quach](mailto:hailey@haileyq.com).
+
