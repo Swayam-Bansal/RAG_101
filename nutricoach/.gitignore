@@ -1,0 +1,8 @@
+__pycache__/
+.nutriVenv/
+.vscode/
+.DS_Store
+venv/
+*.pyc
+*.pyo
+.gradio/
