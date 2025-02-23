@@ -1,0 +1,13 @@
+inquiry_resolution_task:
+  description: > 
+    {customer} just reached out to you with a request for help. They are experiencing an issue with {inquiry} and need your assistance to resolve it. Your goal is to provide the best support possible to {customer} and help them resolve their issue quickly and effectively. Make sure that you provide full and complete answers such that they dont have to make  another request,  about the same {inquiry} again, and make no assumptions on your own, use the tools at your dispossal.
+  expected_output: >
+    A detailed and informative response that addresses {customer}'s issue and provides a solution that will help them resolve it. The response should be clear, concise, and easy to understand, and should include any relevant information or resources that will help {customer} resolve their issue. Make sure to maintain a friendly and helpful tone throughout your response, and provide any additional information or assistance that {customer} may need to resolve their issue.
+  agent: support_agent
+
+quality_assurance_review_task:
+  description: >
+    You have been assigned to review the support provided by the support agent to {customer}. Your goal is to ensure that the support provided is of the highest quality and meets the company's standards for customer service. You need to review the support provided by the support agent and provide feedback that will help them improve and provide even better support in the future. You have to ensure that all of the needs of the {customer} are met and that they are satisfied with the support they received. Make  sure you that the provided response is well supported and leaves no questions unasnwered.
+  expected_output: >
+    A detailed review of the support provided by the support agent, including any areas for improvement and suggestions for how they can provide even better support in the future. Your feedback should be constructive and helpful, and should focus on ways that the support agent can improve their support and provide even better service to {customer}. Make sure to provide specific examples and suggestions that will help the support agent understand how they can improve and provide even better support in the future.
+  agent: support_quality_assurance_agent

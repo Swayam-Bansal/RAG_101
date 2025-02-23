@@ -1,0 +1,23 @@
+[project]
+name = "automate_customer_support"
+version = "0.1.0"
+description = "Automate_Customer_Support using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.102.0,<1.0.0"
+]
+
+[project.scripts]
+automate_customer_support = "automate_customer_support.main:run"
+run_crew = "automate_customer_support.main:run"
+train = "automate_customer_support.main:train"
+replay = "automate_customer_support.main:replay"
+test = "automate_customer_support.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
